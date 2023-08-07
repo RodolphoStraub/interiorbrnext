@@ -1,0 +1,64 @@
+.wrapperopinioesall {
+  width: 70%;
+  margin-left: 15%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: left;
+  margin-top: 150px;
+  scroll-margin-top: 200px;
+}
+
+.opinioestext {
+  line-height: 46px;
+}
+
+.back {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 80px;
+  height: 80px;
+  font-size: 100px;
+  background-color: rgb(222, 224, 67);
+  position: absolute;
+  z-index: -1;
+}
+
+.opinion {
+  margin-top: 36px;
+  margin-left: 44px;
+  margin-bottom: 65px;
+}
+
+.opinioncards {
+  width: 450px;
+  height: 250px;
+  -webkit-box-shadow: 16px 16px 41px -24px rgba(0, 0, 0, 0.5);
+  -moz-box-shadow: 16px 16px 41px -24px rgba(0, 0, 0, 0.5);
+  box-shadow: 16px 16px 41px -24px rgba(0, 0, 0, 0.5);
+  padding: 26px;
+}
+
+.opinioncards p {
+  line-height: 24px;
+  margin-bottom: 32px;
+}
+
+.cardpic {
+  display: flex;
+}
+
+.cardpic img {
+  width: 65px;
+  height: 65px;
+  border-radius: 50%;
+}
+
+.cardtext h2, p {
+  margin-left: 20px;
+}
+
+.cardtext h2 {
+  margin-bottom: 6px;
+}

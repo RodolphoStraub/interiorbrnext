@@ -1,0 +1,47 @@
+.home {
+  height: 700px;
+  display: flex;
+  justify-content: center;
+  text-align: left;
+  background-color: rgb(71, 122, 111);
+}
+
+.name {
+  color: yellow;
+}
+
+.texthome {
+  width: 50%;
+  padding: 200px 0;
+  margin-left: 15%;
+  color: white;
+}
+
+.texthome h1 {
+  font-size: 3rem;
+  letter-spacing: 3px;
+  margin-bottom: 48px;
+}
+
+.texthome h2 {
+  font-size: 1.2rem;
+  letter-spacing: 1.2px;
+}
+
+.homerightside {
+  width: 65%;
+}
+
+.sala {
+  height: 450px;
+  width: 650px;
+  margin-top: 180px;
+  position: absolute;
+}
+
+.backcolor {
+  width: auto;
+  height: 100%;
+  background-color: rgb(233, 238, 185);
+  margin-left: 265px;
+}

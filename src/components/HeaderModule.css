@@ -1,0 +1,51 @@
+.header {
+  width: 100%;
+  height: 80px;
+  display: flex;
+  justify-content: center;
+  position: fixed;
+  background-color: rgb(71, 122, 111);
+  z-index: 8;
+}
+
+.bar {
+  width: 70%;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  list-style-type: none;
+  font-size: 24px;
+}
+
+li {
+  display: flex;
+}
+
+.interiorBr, .sobre, .trabalhos, .processo, .loja, .opinioes, .contato {
+  text-decoration: none;
+  color: white;
+}
+
+.interiorBr:hover, .sobre:hover, .trabalhos:hover, .processo:hover, .loja:hover, .opinioes:hover, .contato:hover {
+  color: rgb(233, 238, 185);
+  transition: 0.3s;
+  cursor: pointer;
+  transform: scale(1.1);
+}
+
+.interiorBr::after, .sobre::after, .trabalhos::after, .processo::after, .loja::after, .opinioes::after, .contato::after {
+  content: '';
+  position: absolute;
+  height: 0.1rem;
+  left: 0;
+  bottom: -5px;
+  background: rgb(233, 238, 185);
+  transform: scale(0, 0);
+  transition: transform 0.3s ease;
+}
+
+.interiorBr:hover::after, .sobre:hover::after, .trabalhos:hover::after, .processo:hover::after, .loja:hover::after, .opinioes:hover::after, .contato:hover::after {
+  transform: scale(1, 1);
+  width: 100%;
+}

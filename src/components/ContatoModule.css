@@ -1,0 +1,56 @@
+.wrappercontatoall {
+  background-color: rgb(155, 158, 126);
+  height: 350px;
+}
+
+.wrappercontato {
+  width: 70%;
+  margin-left: 15%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-top: 195px;
+}
+
+.wrappercontatoall h1 {
+  color: black;
+  font-size: 26px;
+  margin-bottom: 36px;
+  margin-top: 75px;
+}
+
+.wrappercontatoall h2 {
+  font-size: 20px;
+  color: white;
+  line-height: 1.7;
+}
+
+.detail:hover {
+  cursor: pointer;
+  transform: scale(1.1);
+  transition: 0.3s;
+}
+
+.wrappercontatoseguir img {
+  width: 30px;
+}
+
+.sigaicon {
+  width: 45%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.links a {
+  text-decoration: none;
+}
+
+.facebook, .twitter, .instagram {
+  border-radius: 50px;
+}
+
+.facebook:hover, .twitter:hover, .instagram:hover {
+  cursor: pointer;
+  transform: scale(1.1);
+  transition: 0.3s;
+}
