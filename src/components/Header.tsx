@@ -1,42 +1,38 @@
+import Link from 'next/link'
 
 function Header() {
   return (
     <div className="header">
       <ul className="bar">
         <li>
-          <a className="interiorBr" href="/">
+          <Link className="interiorBr" href="/">
             InteriorBr
-          </a>
+          </Link>
         </li>
         <li>
-          <a className="sobre" href="#Sobre">
+          <Link className="sobre" href="/sobre">
             Sobre
-          </a>
+          </Link>
         </li>
         <li>
-          <a className="trabalhos" href="#Trabalhos">
+          <Link className="trabalhos" href="/trabalho">
             Trabalhos
-          </a>
+          </Link>
         </li>
         <li>
-          <a className="processo" href="#Processo">
+          <Link className="processo" href="/#Processo">
             Processo
-          </a>
+          </Link>
         </li>
         <li>
-          <a className="loja" href="#Loja">
-            Loja
-          </a>
-        </li>
-        <li>
-          <a className="opinioes" href="#Opinioes">
+          <Link className="opinioes" href="/#Opinioes">
             Opiniões
-          </a>
+          </Link>
         </li>
         <li>
-          <a className="contato" href="#Contato">
+          <Link className="contato" href="/#Contato">
             Contato
-          </a>
+          </Link>
         </li>
       </ul>
     </div>

@@ -3,7 +3,8 @@ import { Carousel } from 'antd';
 
 const App: React.FC = () => (
   <Carousel
-  dots ={true}
+  dots={false}
+  swipeToSlide draggable
    autoplay
    slidesToShow={3}
    autoplaySpeed={4000}

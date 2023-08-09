@@ -1,4 +1,5 @@
-
+import sobre from '@/pages/sobre';
+import Link from 'next/link'
 
 function Sobre() {
   return (
@@ -43,7 +44,9 @@ function Sobre() {
           labore et dolore magna aliqua.
         </p>
         <h2>Jamie Phoenix, CEO</h2>
+        <Link href='/sobre'>
         <button className="botao">Saiba mais</button>
+        </Link>
       </div>
     </div>
   );

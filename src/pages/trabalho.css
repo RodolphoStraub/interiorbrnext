@@ -1,0 +1,36 @@
+.trabalhoall{
+    display: flex;
+    flex-direction: column;
+background-image: url(https://www.mobly.com.br/blog/wp-content/uploads/2022/08/tons_de_verde_15.jpg);
+background-repeat: no-repeat;
+background-size: cover;
+background-position: center;
+background-attachment: fixed;
+}
+
+.trabalhoall h1{
+    margin-bottom: 36px;
+    color: white;
+}
+
+.trabalhopic img{
+    width: 400px;
+    height: 500px;
+    margin-bottom: 200px;
+    border-radius: 30px;
+    padding: 15px;
+}
+
+.trabalho1{
+    margin-top: 150px;
+}
+
+.trabalho1, .trabalho2, .trabalho3, .trabalho4{
+    width: 69%;
+    margin-left: 16%;
+}
+
+.trabalhopic:hover{
+    transform: scale(1.05);
+    transition: 0.3s;
+}

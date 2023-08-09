@@ -1,17 +1,15 @@
 import React from 'react';
-import { Carousel, Icon } from 'antd';
-
-
+import { Carousel} from 'antd';
+import Link from 'next/link'
 
 const App: React.FC = () => (
   <Carousel
-  arrows
-  dots ={true}
+  dots={false}
+  swipeToSlide draggable
    autoplay
    slidesToShow={2}
    autoplaySpeed={4000}
    pauseOnHover={true}
-
    >
     <div>
     <Trabalho img="https://www.rri.res.in/sites/default/files/2022-09/Abhisek%20Tamang.jpg" />
@@ -51,7 +49,9 @@ function Trabalhos() {
           eiusmod tempor incididunt ut labore et dolore magna aliqua.Lorem ipsum
           dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor.
         </p>
+        <Link href='/trabalho'>
         <button className="botao">Explorar</button>
+        </Link>
       </div>
       <div className="wrappertrabalhosright">
         <App/>

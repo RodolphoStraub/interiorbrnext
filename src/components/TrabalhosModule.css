@@ -41,14 +41,6 @@
   transition: 0.3s;
 }
 
-.wrappertrabalhosright .slick-arrow{
-  background-color: rgb(43, 185, 155);
-}
-
-.wrappertrabalhosright .slick-dots-bottom{
-z-index: 0;
-}
-
 .wrappertrabalhosright .slick-dots li{
-  background:rgb(43, 185, 155);
+  z-index: 1px;
 }
