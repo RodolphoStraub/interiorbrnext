@@ -1,37 +1,10 @@
 import React from 'react'
 import { Carousel} from 'antd';
-
-const App: React.FC = () => (
-  <Carousel
-  dots={false}
-  swipeToSlide draggable
-   autoplay
-   slidesToShow={3}
-   autoplaySpeed={4000}
-   pauseOnHover={true}
-   >
-    <div>
-    <Trabalhos img="https://www.rri.res.in/sites/default/files/2022-09/Abhisek%20Tamang.jpg" />
-    </div>
-    <div>
-    <Trabalhos img="https://www.rri.res.in/sites/default/files/2022-09/Abhisek%20Tamang.jpg" />
-    </div>
-    <div>
-    <Trabalhos img="https://www.rri.res.in/sites/default/files/2022-09/Abhisek%20Tamang.jpg" />
-    </div>
-    <div>
-    <Trabalhos img="https://www.rri.res.in/sites/default/files/2022-09/Abhisek%20Tamang.jpg" />
-    </div>
-  </Carousel>
-);
-
-function Trabalhos(props) {
-  return (
-    <div className="trabalhopic">
-      <img src={props.img}></img>
-    </div>
-  );
-}
+import { cozinhalistData } from '@/Data/Data';
+import CozinhaList from '@/Data/CozinhaList';
+import QuartoList from '@/Data/QuartoList'
+import SalaList from '@/Data/SalaList';
+import BanheiroList from '@/Data/BanheiroList';
 
 type Props = {}
 
@@ -40,19 +13,19 @@ const trabalho = (props: Props) => {
     <div className='trabalhoall'>
       <div className="trabalho1">
         <h1>Cozinhas</h1>
-        <App/>
+        <CozinhaList/>
       </div>
       <div className="trabalho2">
         <h1>Quartos</h1>
-        <App/>
+        <QuartoList/>
       </div>
       <div className="trabalho3">
         <h1>Salas</h1>
-        <App/>
+        <SalaList/>
       </div>
       <div className="trabalho4">
         <h1>Banheiros</h1>
-        <App/>
+        <BanheiroList/>
       </div>
     </div>
   )

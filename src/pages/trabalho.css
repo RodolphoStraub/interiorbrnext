@@ -19,6 +19,7 @@ background-attachment: fixed;
     margin-bottom: 200px;
     border-radius: 30px;
     padding: 15px;
+    background-color: white;
 }
 
 .trabalho1{
@@ -31,6 +32,6 @@ background-attachment: fixed;
 }
 
 .trabalhopic:hover{
-    transform: scale(1.05);
+    transform: scale(0.95);
     transition: 0.3s;
 }
