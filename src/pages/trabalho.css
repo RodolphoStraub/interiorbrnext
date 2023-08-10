@@ -1,37 +1,96 @@
-.trabalhoall{
+.trabalhoall {
+  display: flex;
+  flex-direction: column;
+  background-image: url(https://www.mobly.com.br/blog/wp-content/uploads/2022/08/tons_de_verde_15.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+}
+
+.trabalhoall h1 {
+  margin-bottom: 36px;
+  color: white;
+}
+
+.fundo{
+    width: 410px;
+    height: 510px;
     display: flex;
-    flex-direction: column;
-background-image: url(https://www.mobly.com.br/blog/wp-content/uploads/2022/08/tons_de_verde_15.jpg);
-background-repeat: no-repeat;
-background-size: cover;
-background-position: center;
-background-attachment: fixed;
-}
-
-.trabalhoall h1{
-    margin-bottom: 36px;
-    color: white;
-}
-
-.trabalhopic img{
-    width: 400px;
-    height: 500px;
-    margin-bottom: 200px;
+    align-items: center;
+    justify-content: center;
     border-radius: 30px;
-    padding: 15px;
     background-color: white;
+    margin-bottom: 200px;
 }
 
-.trabalho1{
-    margin-top: 150px;
+.trabalhopic {
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  width: 390px;
+  height: 490px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-radius: 30px;
+  cursor: pointer;
 }
 
-.trabalho1, .trabalho2, .trabalho3, .trabalho4{
-    width: 69%;
-    margin-left: 16%;
+.trabalho1 {
+  margin-top: 150px;
 }
 
-.trabalhopic:hover{
-    transform: scale(0.95);
-    transition: 0.3s;
+.trabalho1,
+.trabalho2,
+.trabalho3,
+.trabalho4 {
+  width: 69%;
+  margin-left: 16%;
+}
+
+.trabalhopic:hover {
+  transform: scale(0.96);
+  transition: 0.1s;
+  width: 400px;
+  height: 500px;
+  border-radius: 30px;
+}
+.trabalhopic:hover::before {
+  content: "";
+  position: absolute;
+  border-radius: 30px;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.4);
+}
+.title {
+  width: 85%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: #fff;
+  opacity: 0;
+  z-index: 5;
+  margin-top: 36px;
+  margin-bottom: 48px;
+}
+
+.texts {
+  width: 85%;
+  top: 150px;
+  left: 25px;
+  color: #fff;
+  font-size: 16px;
+  opacity: 0;
+  z-index: 5;
+}
+
+.trabalhopic:hover .title,
+.trabalhopic:hover .texts {
+  opacity: 1;
+  transition: all 0.3s;
 }
