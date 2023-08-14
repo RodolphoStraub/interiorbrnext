@@ -12,23 +12,31 @@ const App: React.FC = () => (
    pauseOnHover={true}
    >
     <div>
-    <Trabalho img="https://www.rri.res.in/sites/default/files/2022-09/Abhisek%20Tamang.jpg" />
+    <Link href='/trabalho'>
+    <Trabalho img="https://revistazelo.com.br/wp-content/uploads/2023/01/Cozinha-em-2023-2-scaled.jpg" />
+</Link>
     </div>
     <div>
-    <Trabalho img="https://www.rri.res.in/sites/default/files/2022-09/Abhisek%20Tamang.jpg" />
+    <Link href='/trabalho'>
+    <Trabalho img="https://arkpad.com.br/wp-content/uploads/2020/05/quarto-simples-02.jpg" />
+</Link>
     </div>
     <div>
-    <Trabalho img="https://www.rri.res.in/sites/default/files/2022-09/Abhisek%20Tamang.jpg" />
+    <Link href='/trabalho'>
+    <Trabalho img="https://i0.wp.com/www.viajandonoape.com.br/wordpress/wp-content/uploads/2022/03/sala-de-estar-pequena-sofa-banco-dicas-ideias.jpg?fit=730%2C556&ssl=1" />
+</Link>
     </div>
     <div>
-    <Trabalho img="https://www.rri.res.in/sites/default/files/2022-09/Abhisek%20Tamang.jpg" />
+    <Link href='/trabalho'>
+    <Trabalho img="https://lh3.googleusercontent.com/mKcjEKNl2lyoaSxR_stENz0Ln9f1lrzPGepuNaJsNugXHnq-dqLtmVHL5VdOZK9GrdhtSciLWzB-HIMHa2JcSLoj7l3DmdOqU0SrWNQ1wiIQy4p711uUloRTyY3wZd9BCv99Y_LjeCXOFfsAfS5RWUo" />
+</Link>
     </div>
   </Carousel>
 );
 
 function Trabalho(props) {
   return (
-    <div className="trabalhopic">
+    <div className="trabalhopic2">
       <img src={props.img}></img>
     </div>
   );

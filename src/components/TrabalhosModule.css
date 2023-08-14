@@ -1,15 +1,17 @@
 .wrappertrabalhosall {
   display: flex;
   align-items: center;
-  margin-top: 150px;
+  height: 870px;
+  margin-top: 210px;
   margin-bottom: 140px;
   scroll-margin-top: 150px;
-
+  background-color: rgb(230, 236, 207);
 }
 
 .wrappertrabalhosleft {
   width: 20%;
   margin-left: 15%;
+  margin-bottom: 120px;
 }
 
 .wrappertrabalhosleft h1 {
@@ -30,9 +32,9 @@
 }
 
 .wrappertrabalhosright img {
-  margin-top: 100px;
   width: 350px;
   height: 450px;
+  border-radius: 20px;
 }
 
 .wrappertrabalhosright img:hover {
