@@ -45,3 +45,282 @@
   background-color: rgb(233, 238, 185);
   margin-left: 265px;
 }
+
+ @media(max-width: 1440px){
+  
+  .home {
+    height: 700px;
+    display: flex;
+    justify-content: center;
+    text-align: left;
+    background-color: rgb(71, 122, 111);
+    overflow: hidden;
+  }
+
+  .texthome {
+    width: 50%;
+    padding: 200px 0;
+    margin-left: 15%;
+    color: white;
+  }
+
+  .texthome h1 {
+    font-size: 2.3rem;
+    letter-spacing: 2.3px;
+    margin-bottom: 38px;
+  }
+
+  .texthome h2 {
+    font-size: 1.1rem;
+    letter-spacing: 1.1px;
+  }
+
+  .homerightside {
+    width: 100%;
+  }
+
+  .sala {
+    height: 350px;
+    width: auto;
+    margin-top: 180px;
+    margin-left: 80px;
+  }
+
+  .backcolor {
+    width: 100%;
+    height: 100%;
+    background-color: rgb(233, 238, 185);
+    margin-left: 310px;
+  }
+ }
+
+ @media(max-width: 1024px){
+
+  .home {
+    height: 650px;
+    display: flex;
+    justify-content: center;
+    text-align: left;
+    background-color: rgb(71, 122, 111);
+    overflow: hidden;
+  }
+
+  .texthome {
+    width: 55%;
+    padding: 150px 0;
+    margin-left: 16%;
+    color: white;
+  }
+
+  .texthome h1 {
+    font-size: 2.2rem;
+    letter-spacing: 2.2px;
+    margin-bottom: 36px;
+  }
+
+  .texthome h2 {
+    font-size: 1.05rem;
+    letter-spacing: 1.05px;
+  }
+
+  .homerightside {
+    width:100%;
+  }
+
+  .sala {
+    height: 280px;
+    width: auto;
+    margin-top: 200px;
+  }
+
+  .backcolor {
+    width: 235%;
+    height: 100%;
+    background-color: rgb(233, 238, 185);
+    margin-left: 265px;
+  }
+ }
+
+ @media(max-width: 768px){
+
+  .home {
+    height: auto;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    background-image: url(https://casacor.abril.com.br/wp-content/uploads/sites/7/2021/04/up-arquitetura-casa-up-casacor-rio-de-janeiro-2021-foto-andre-nazareth-sofa-verde.jpg?quality=80&strip=info);
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  .texthome {
+    width: 100%;
+    padding: 200px 0;
+    color: rgb(255, 255, 255);
+    margin-left: 0px;
+  }
+
+  .texthome h1 {
+    font-size: 2.5rem;
+    letter-spacing: 2.35px;
+    margin-bottom: 34px;
+  }
+
+  .texthome h2 {
+    font-size: 1.15rem;
+    letter-spacing: 2px;
+  }
+
+  .homerightside {
+    width: 0%;
+  }
+
+  .sala {
+    height: 0px;
+    width: auto;
+  }
+
+  .backcolor {
+    width: 0%;
+    height: 0%;
+  }
+ }
+
+ @media(max-width: 425px){
+
+  .home {
+    height: auto;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    background-image: url(https://casacor.abril.com.br/wp-content/uploads/sites/7/2021/04/up-arquitetura-casa-up-casacor-rio-de-janeiro-2021-foto-andre-nazareth-sofa-verde.jpg?quality=80&strip=info);
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  .texthome {
+    width: 80%;
+    padding: 150px 0;
+    color: rgb(255, 255, 255);
+    margin-left: 0px;
+  }
+
+  .texthome h1 {
+    font-size: 2rem;
+    letter-spacing: 2.35px;
+    margin-bottom: 34px;
+  }
+
+  .texthome h2 {
+    font-size: 1rem;
+    letter-spacing: 2px;
+  }
+
+  .homerightside {
+    width: 0%;
+  }
+
+  .sala {
+    height: 0px;
+    width: auto;
+  }
+
+  .backcolor {
+    width: 0%;
+    height: 0%;
+  }
+ }
+
+ @media(max-width: 375px){
+
+  .home {
+    height: auto;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    background-image: url(https://casacor.abril.com.br/wp-content/uploads/sites/7/2021/04/up-arquitetura-casa-up-casacor-rio-de-janeiro-2021-foto-andre-nazareth-sofa-verde.jpg?quality=80&strip=info);
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  .texthome {
+    width: 65%;
+    padding: 125px 0;
+    color: rgb(255, 255, 255);
+    margin-left: 0px;
+  }
+
+  .texthome h1 {
+    font-size: 1.8rem;
+    letter-spacing: 2.2px;
+    margin-bottom: 34px;
+  }
+
+  .texthome h2 {
+    font-size: 0.9rem;
+    letter-spacing: 1.8px;
+  }
+
+  .homerightside {
+    width: 0%;
+  }
+
+  .sala {
+    height: 0px;
+    width: auto;
+  }
+
+  .backcolor {
+    width: 0%;
+    height: 0%;
+  }
+ }
+
+ @media(max-width: 320px){
+
+  .home {
+    height: auto;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    background-image: url(https://casacor.abril.com.br/wp-content/uploads/sites/7/2021/04/up-arquitetura-casa-up-casacor-rio-de-janeiro-2021-foto-andre-nazareth-sofa-verde.jpg?quality=80&strip=info);
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  .texthome {
+    width: 60%;
+    padding: 100px 0;
+    color: rgb(255, 255, 255);
+    margin-left: 0px;
+  }
+
+  .texthome h1 {
+    font-size: 1.8rem;
+    letter-spacing: 2.2px;
+    margin-bottom: 34px;
+  }
+
+  .texthome h2 {
+    font-size: 0.9rem;
+    letter-spacing: 1.8px;
+  }
+
+  .homerightside {
+    width: 0%;
+  }
+
+  .sala {
+    height: 0px;
+    width: auto;
+  }
+
+  .backcolor {
+    width: 0%;
+    height: 0%;
+  }
+ }

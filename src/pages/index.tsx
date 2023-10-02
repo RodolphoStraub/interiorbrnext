@@ -12,11 +12,11 @@ function App() {
        <Head>
         <title>InteriorBr</title>
       </Head>
-      <Home />
+      <Home />   
       <Sobre />
       <Trabalhos />
-      <Processo />
-      <Opinioes />
+      {/* <Processo /> */}
+      {/* <Opinioes /> */}
     </div>
   );
 }

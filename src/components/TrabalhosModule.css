@@ -46,3 +46,55 @@
 .wrappertrabalhosright .slick-dots li{
   z-index: 1px;
 }
+
+@media(max-width: 1440px){
+
+  .wrappertrabalhosall {
+    display: flex;
+    align-items: center;
+    height: 870px;
+    margin-top: 210px;
+    margin-bottom: 140px;
+    scroll-margin-top: 150px;
+    background-color: rgb(230, 236, 207);
+  }
+  
+  .wrappertrabalhosleft {
+    width: 20%;
+    margin-left: 15%;
+    margin-bottom: 120px;
+  }
+  
+  .wrappertrabalhosleft h1 {
+    line-height: 46px;
+    margin-top: 150px;
+    margin-bottom: 32px;
+  }
+  
+  .trabalhotext {
+    margin-left: 0;
+    line-height: 36px;
+  }
+  
+  .wrappertrabalhosright {
+    width: 850px;
+    height: 450px;
+    margin-left: 150px;
+  }
+  
+  .wrappertrabalhosright img {
+    width: 350px;
+    height: 450px;
+    border-radius: 20px;
+  }
+  
+  .wrappertrabalhosright img:hover {
+    cursor: pointer;
+    transform: scale(0.9);
+    transition: 0.3s;
+  }
+  
+  .wrappertrabalhosright .slick-dots li{
+    z-index: 1px;
+  }
+}
