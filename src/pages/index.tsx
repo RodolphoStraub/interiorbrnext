@@ -15,8 +15,8 @@ function App() {
       <Home />   
       <Sobre />
       <Trabalhos />
-      {/* <Processo /> */}
-      {/* <Opinioes /> */}
+      <Processo />
+      <Opinioes />
     </div>
   );
 }

@@ -1,13 +1,16 @@
 import React from 'react';
 import { Carousel} from 'antd';
 import Link from 'next/link'
+import { useWindowSize } from './useScreenSize';
 
-const App: React.FC = () => (
+const App: React.FC = () => {
+  const size = useWindowSize();
+  return(
   <Carousel
   dots={false}
   swipeToSlide draggable
    autoplay
-   slidesToShow={2}
+   slidesToShow={ size.width > 1024 ? 2: 1 }
    autoplaySpeed={4000}
    pauseOnHover={true}
    >
@@ -32,7 +35,7 @@ const App: React.FC = () => (
 </Link>
     </div>
   </Carousel>
-);
+)};
 
 function Trabalho(props) {
   return (

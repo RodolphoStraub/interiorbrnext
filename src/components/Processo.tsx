@@ -1,4 +1,3 @@
-
 function Icon(props) {
   return (
     <div className="iconbox">
@@ -55,9 +54,9 @@ function Processo() {
           <h2>Perfeição em cada detalhe</h2>
         </div>
         <p>
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-          eiusmod tempor incididunt ut labore et dolore magna aliqua.Lorem ipsum
-          dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor.
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed doeiusmod
+          tempor incididunt ut labore et dolore magna aliqua.Lorem ipsumdolor
+          sit amet, consectetur adipiscing elit, sed do eiusmod tempor.
         </p>
         <div className="textabout">
           <img
