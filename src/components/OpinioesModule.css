@@ -63,3 +63,431 @@
 .cardtext h2 {
   margin-bottom: 6px;
 }
+
+@media(max-width: 1440px){
+
+  .wrapperopinioesall {
+    width: 70%;
+    margin-left: 15%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: left;
+    margin-top: 150px;
+    margin-bottom: 150px;
+    scroll-margin-top: 200px;
+  }
+  
+  .opinioestext {
+    line-height: 46px;
+  }
+  
+  .back {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 75px;
+    height: 75px;
+    font-size: 95px;
+    background-color: rgb(222, 224, 67);
+    position: absolute;
+    z-index: -1;
+  }
+  
+  .opinion {
+    margin-top: 36px;
+    margin-left: 44px;
+    margin-bottom: 65px;
+  }
+  
+  .opinioncards {
+    width: 330px;
+    height: 300px;
+    -webkit-box-shadow: 16px 16px 41px -24px rgba(0, 0, 0, 0.5);
+    -moz-box-shadow: 16px 16px 41px -24px rgba(0, 0, 0, 0.5);
+    box-shadow: 16px 16px 41px -24px rgba(0, 0, 0, 0.5);
+    padding: 26px;
+  }
+  
+  .opinioncards p {
+    width: 260px;
+    line-height: 24px;
+    margin-bottom: 32px;
+  }
+  
+  .cardpic {
+    display: flex;
+  }
+  
+  .cardpic img {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+  }
+  
+  .cardtext h2, p {
+    margin-left: 20px;
+  }
+  
+  .cardtext h2 {
+    margin-bottom: 4px;
+  }
+}
+
+@media(max-width: 1024px){
+
+  .wrapperopinioesall {
+    width: 70%;
+    margin-left: 15%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: left;
+    margin-top: 150px;
+    margin-bottom: 150px;
+    scroll-margin-top: 200px;
+  }
+  
+  .opinioestext {
+    line-height: 46px;
+  }
+  
+  .back {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 75px;
+    height: 75px;
+    font-size: 95px;
+    background-color: rgb(222, 224, 67);
+    position: absolute;
+    z-index: -1;
+  }
+  
+  .opinion {
+    margin-top: 36px;
+    margin-left: 44px;
+    margin-bottom: 65px;
+  }
+  
+  .opinioncards {
+    width: 330px;
+    height: 300px;
+    -webkit-box-shadow: 16px 16px 41px -24px rgba(0, 0, 0, 0.5);
+    -moz-box-shadow: 16px 16px 41px -24px rgba(0, 0, 0, 0.5);
+    box-shadow: 16px 16px 41px -24px rgba(0, 0, 0, 0.5);
+    padding: 26px;
+  }
+  
+  .opinioncards p {
+    width: 260px;
+    line-height: 24px;
+    margin-bottom: 32px;
+  }
+  
+  .cardpic {
+    display: flex;
+  }
+  
+  .cardpic img {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+  }
+  
+  .cardtext h2, p {
+    margin-left: 20px;
+  }
+  
+  .cardtext h2 {
+    margin-bottom: 4px;
+  }
+}
+
+@media(max-width: 768px){
+
+  .wrapperopinioesall {
+    width: 70%;
+    margin-left: 15%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: left;
+    margin-top: 150px;
+    margin-bottom: 150px;
+    scroll-margin-top: 200px;
+  }
+  
+  .opinioestext {
+    line-height: 46px;
+  }
+  
+  .back {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 70px;
+    height: 70px;
+    font-size: 95px;
+    background-color: rgb(222, 224, 67);
+    position: absolute;
+    z-index: -1;
+  }
+  
+  .opinion {
+    margin-top: 36px;
+    margin-left: 44px;
+    margin-bottom: 65px;
+    font-size: 26px;
+  }
+  
+  .opinioncards {
+    width: 265px;
+    height: 350px;
+    -webkit-box-shadow: 16px 16px 41px -24px rgba(0, 0, 0, 0.5);
+    -moz-box-shadow: 16px 16px 41px -24px rgba(0, 0, 0, 0.5);
+    box-shadow: 16px 16px 41px -24px rgba(0, 0, 0, 0.5);
+    padding: 26px;
+  }
+  
+  .opinioncards p {
+    width: 200px;
+    line-height: 24px;
+    margin-bottom: 32px;
+    font-size: 14px;
+  }
+  
+  .cardpic {
+    display: flex;
+  }
+  
+  .cardpic img {
+    width: 56px;
+    height: 56px;
+    border-radius: 50%;
+  }
+  
+  .cardtext h2, p {
+    margin-left: 14px;
+  }
+  
+  .cardtext h2 {
+    margin-bottom: 2px;
+  }
+}
+
+@media(max-width: 425px){
+
+  .wrapperopinioesall {
+    width: 70%;
+    margin-left: 15%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: left;
+    margin-top: 150px;
+    margin-bottom: 150px;
+    scroll-margin-top: 200px;
+  }
+  
+  .opinioestext {
+    line-height: 46px;
+  }
+  
+  .back {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 70px;
+    height: 70px;
+    font-size: 95px;
+    background-color: rgb(222, 224, 67);
+    position: absolute;
+    z-index: -1;
+  }
+  
+  .opinion {
+    margin-top: 36px;
+    margin-left: 44px;
+    margin-bottom: 65px;
+    font-size: 26px;
+  }
+  
+  .opinioncards {
+    width: 285px;
+    height: 320px;
+    -webkit-box-shadow: 16px 16px 41px -24px rgba(0, 0, 0, 0.5);
+    -moz-box-shadow: 16px 16px 41px -24px rgba(0, 0, 0, 0.5);
+    box-shadow: 16px 16px 41px -24px rgba(0, 0, 0, 0.5);
+    padding: 26px;
+  }
+  
+  .opinioncards p {
+    width: 220px;
+    line-height: 24px;
+    margin-bottom: 32px;
+    font-size: 14px;
+  }
+  
+  .cardpic {
+    display: flex;
+  }
+  
+  .cardpic img {
+    width: 56px;
+    height: 56px;
+    border-radius: 50%;
+  }
+  
+  .cardtext h2, p {
+    margin-left: 14px;
+  }
+  
+  .cardtext h2 {
+    margin-bottom: 2px;
+  }
+}
+
+@media(max-width: 375px){
+
+  .wrapperopinioesall {
+    width: 70%;
+    margin-left: 10%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: left;
+    margin-top: 150px;
+    margin-bottom: 150px;
+    scroll-margin-top: 200px;
+  }
+  
+  .opinioestext {
+    line-height: 46px;
+  }
+  
+  .back {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 70px;
+    height: 70px;
+    font-size: 95px;
+    background-color: rgb(222, 224, 67);
+    position: absolute;
+    z-index: -1;
+  }
+  
+  .opinion {
+    margin-top: 36px;
+    margin-left: 44px;
+    margin-bottom: 65px;
+    font-size: 26px;
+  }
+  
+  .opinioncards {
+    width: 265px;
+    height: 320px;
+    -webkit-box-shadow: 16px 16px 41px -24px rgba(0, 0, 0, 0.5);
+    -moz-box-shadow: 16px 16px 41px -24px rgba(0, 0, 0, 0.5);
+    box-shadow: 16px 16px 41px -24px rgba(0, 0, 0, 0.5);
+    padding: 26px;
+  }
+  
+  .opinioncards p {
+    width: 220px;
+    line-height: 24px;
+    margin-bottom: 32px;
+    font-size: 14px;
+  }
+  
+  .cardpic {
+    display: flex;
+  }
+  
+  .cardpic img {
+    width: 54px;
+    height: 54px;
+    border-radius: 50%;
+  }
+  
+  .cardtext h2, p {
+    margin-left: 14px;
+  }
+  
+  .cardtext h2 {
+    margin-bottom: 2px;
+  }
+}
+
+@media(max-width: 375px){
+
+  .wrapperopinioesall {
+    width: 70%;
+    margin-left: 10%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: left;
+    margin-top: 150px;
+    margin-bottom: 150px;
+    scroll-margin-top: 200px;
+  }
+  
+  .opinioestext {
+    line-height: 46px;
+  }
+  
+  .back {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 70px;
+    height: 70px;
+    font-size: 95px;
+    background-color: rgb(222, 224, 67);
+    position: absolute;
+    z-index: -1;
+  }
+  
+  .opinion {
+    margin-top: 36px;
+    margin-left: 44px;
+    margin-bottom: 65px;
+    font-size: 26px;
+  }
+  
+  .opinioncards {
+    width: 225px;
+    height: 370px;
+    -webkit-box-shadow: 16px 16px 41px -24px rgba(0, 0, 0, 0.5);
+    -moz-box-shadow: 16px 16px 41px -24px rgba(0, 0, 0, 0.5);
+    box-shadow: 16px 16px 41px -24px rgba(0, 0, 0, 0.5);
+    padding: 26px;
+  }
+  
+  .opinioncards p {
+    width: 170px;
+    line-height: 24px;
+    margin-bottom: 32px;
+    font-size: 14px;
+  }
+  
+  .cardpic {
+    display: flex;
+  }
+  
+  .cardpic img {
+    width: 52px;
+    height: 52px;
+    border-radius: 50%;
+  }
+  
+  .cardtext h2, p {
+    margin-left: 8px;
+  }
+  
+  .cardtext h2 {
+    margin-bottom: 2px;
+  }
+}

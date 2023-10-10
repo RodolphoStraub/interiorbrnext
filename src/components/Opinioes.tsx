@@ -1,12 +1,29 @@
 import React from 'react';
 import { Carousel } from 'antd';
+import { useWindowSize } from './useScreenSize';
 
-const App: React.FC = () => (
+
+const App: React.FC = () => {
+
+  const size = useWindowSize();
+  const getSize =() =>{
+
+    if (
+      size.width > 1024
+    )
+    {return 3}
+    if (
+      size.width > 425
+    )
+    {return 2}
+    return 1
+  }
+  return(
   <Carousel
   dots={false}
   swipeToSlide draggable
    autoplay
-   slidesToShow={3}
+   slidesToShow={getSize()}
    autoplaySpeed={4000}
    pauseOnHover={true} 
    >
@@ -43,7 +60,7 @@ const App: React.FC = () => (
       />
     </div>
   </Carousel>
-);
+)};
 
 function Opinions(props) {
   return (
