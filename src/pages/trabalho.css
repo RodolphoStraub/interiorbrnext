@@ -89,8 +89,442 @@
   z-index: 5;
 }
 
-.trabalhopic:hover .title,
-.trabalhopic:hover .texts {
-  opacity: 1;
-  transition: all 0.3s;
+
+@media(max-width: 1024px){
+
+  .trabalhoall h1 {
+    margin-bottom: 36px;
+    color: white;
+  }
+  
+  .fundo{
+      width: 330px;
+      height: 490px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      border-radius: 30px;
+      background-color: white;
+      margin-bottom: 200px;
+  }
+  
+  .trabalhopic {
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    width: 310px;
+    height: 470px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 30px;
+    cursor: pointer;
+  }
+  
+  .trabalho1 {
+    margin-top: 150px;
+  }
+  
+  .trabalho1,
+  .trabalho2,
+  .trabalho3,
+  .trabalho4 {
+    width: 69%;
+    margin-left: 16%;
+  }
+  
+  .trabalhopic:hover {
+    transform: scale(0.96);
+    transition: 0.1s;
+    width: 400px;
+    height: 500px;
+    border-radius: 30px;
+  }
+  .trabalhopic:hover::before {
+    content: "";
+    position: absolute;
+    border-radius: 30px;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.4);
+  }
+  .title {
+    width: 85%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: #fff;
+    opacity: 0;
+    z-index: 5;
+    margin-top: 36px;
+    margin-bottom: 48px;
+  }
+  
+  .texts {
+    width: 85%;
+    top: 150px;
+    left: 25px;
+    color: #fff;
+    font-size: 16px;
+    opacity: 0;
+    z-index: 5;
+  }
+}
+
+@media(max-width: 768px){
+
+  .trabalhoall h1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 36px;
+    font-size: 32px;
+    color: white;
+  }
+  
+  .fundo{
+      width: 430px;
+      height: 490px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      border-radius: 30px;
+      background-color: white;
+      margin-bottom: 200px;
+      margin-left: 10%;
+  }
+  
+  .trabalhopic {
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    width: 410px;
+    height: 470px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 30px;
+    cursor: pointer;
+  }
+  
+  .trabalho1 {
+    margin-top: 150px;
+  }
+  
+  .trabalho1,
+  .trabalho2,
+  .trabalho3,
+  .trabalho4 {
+    width: 69%;
+    margin-left: 16%;
+  }
+  
+  .trabalhopic:hover {
+    transform: scale(0.96);
+    transition: 0.1s;
+    width: 400px;
+    height: 500px;
+    border-radius: 30px;
+  }
+  .trabalhopic:hover::before {
+    content: "";
+    position: absolute;
+    border-radius: 30px;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.4);
+  }
+  .title {
+    width: 85%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: #fff;
+    opacity: 0;
+    z-index: 5;
+    margin-top: 36px;
+    margin-bottom: 48px;
+  }
+  
+  .texts {
+    width: 85%;
+    top: 150px;
+    left: 25px;
+    color: #fff;
+    font-size: 16px;
+    opacity: 0;
+    z-index: 5;
+  }
+}
+
+@media(max-width: 425px){
+
+  .trabalhoall h1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 36px;
+    font-size: 30px;
+    color: white;
+  }
+  
+  .fundo{
+      width: 270px;
+      height: 430px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      border-radius: 30px;
+      background-color: white;
+      margin-bottom: 200px;
+  }
+  
+  .trabalhopic {
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    width: 250px;
+    height: 410px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 30px;
+    cursor: pointer;
+  }
+  
+  .trabalho1 {
+    margin-top: 150px;
+  }
+  
+  .trabalho1,
+  .trabalho2,
+  .trabalho3,
+  .trabalho4 {
+    width: 80vw;
+    margin-left: 10%;
+  }
+  
+  .trabalhopic:hover {
+    transform: scale(0.96);
+    transition: 0.1s;
+    width: 400px;
+    height: 500px;
+    border-radius: 30px;
+  }
+  .trabalhopic:hover::before {
+    content: "";
+    position: absolute;
+    border-radius: 30px;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.4);
+  }
+  .title {
+    width: 85%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: #fff;
+    opacity: 0;
+    z-index: 5;
+    margin-top: 36px;
+    margin-bottom: 48px;
+  }
+  
+  .texts {
+    width: 85%;
+    top: 150px;
+    left: 25px;
+    color: #fff;
+    font-size: 16px;
+    opacity: 0;
+    z-index: 5;
+  }
+}
+
+@media(max-width: 375px){
+
+  .trabalhoall h1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 36px;
+    margin-left: 8%;
+    font-size: 28px;
+    color: white;
+  }
+  
+  .fundo{
+      width: 270px;
+      height: 430px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      border-radius: 30px;
+      background-color: white;
+      margin-bottom: 200px;
+  }
+  
+  .trabalhopic {
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    width: 250px;
+    height: 410px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 30px;
+    cursor: pointer;
+  }
+  
+  .trabalho1 {
+    margin-top: 150px;
+  }
+  
+  .trabalho1,
+  .trabalho2,
+  .trabalho3,
+  .trabalho4 {
+    width: 80vw;
+    margin-left: 5%;
+  }
+  
+  .trabalhopic:hover {
+    transform: scale(0.96);
+    transition: 0.1s;
+    width: 400px;
+    height: 500px;
+    border-radius: 30px;
+  }
+  .trabalhopic:hover::before {
+    content: "";
+    position: absolute;
+    border-radius: 30px;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.4);
+  }
+  .title {
+    width: 85%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: #fff;
+    opacity: 0;
+    z-index: 5;
+    margin-top: 36px;
+    margin-bottom: 48px;
+  }
+  
+  .texts {
+    width: 85%;
+    top: 150px;
+    left: 25px;
+    color: #fff;
+    font-size: 16px;
+    opacity: 0;
+    z-index: 5;
+  }
+}
+
+@media(max-width: 320px){
+
+  .trabalhoall h1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 36px;
+    margin-left: 8%;
+    font-size: 28px;
+    color: white;
+  }
+  
+  .fundo{
+      width: 230px;
+      height: 400px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      border-radius: 30px;
+      background-color: white;
+      margin-bottom: 200px;
+  }
+  
+  .trabalhopic {
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    width: 210px;
+    height: 380px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 30px;
+    cursor: pointer;
+  }
+  
+  .trabalho1 {
+    margin-top: 160px;
+  }
+  
+  .trabalho1,
+  .trabalho2,
+  .trabalho3,
+  .trabalho4 {
+    width: 80vw;
+    margin-left: 5%;
+  }
+  
+  .trabalhopic:hover {
+    transform: scale(0.96);
+    transition: 0.1s;
+    width: 400px;
+    height: 500px;
+    border-radius: 30px;
+  }
+  .trabalhopic:hover::before {
+    content: "";
+    position: absolute;
+    border-radius: 30px;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.4);
+  }
+  .title {
+    width: 85%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: #fff;
+    opacity: 0;
+    z-index: 5;
+    margin-top: 36px;
+    margin-bottom: 48px;
+  }
+  
+  .texts {
+    width: 85%;
+    top: 150px;
+    left: 25px;
+    color: #fff;
+    font-size: 16px;
+    opacity: 0;
+    z-index: 5;
+  }
 }

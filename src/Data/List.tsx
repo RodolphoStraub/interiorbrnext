@@ -1,11 +1,35 @@
 import React from "react";
 import { Carousel } from "antd";
+import { useWindowSize } from '../components/useScreenSize';
+
 
 interface CardProps {
   data: any[];
 }
 
 function List({ data }: CardProps) {
+
+  const size = useWindowSize();
+  const getSize =() =>{
+
+    if (
+      size.width > 1440
+    )
+    {return 3}
+    if (
+      size.width > 1024
+    )
+    {return 2}
+    if(
+      size.width > 768
+    )
+    {return 2}
+    if(
+      size.width > 425
+    )
+    {return 1}
+    return 1
+  }
   return (
     <div>
       <Carousel
@@ -13,7 +37,7 @@ function List({ data }: CardProps) {
         swipeToSlide
         draggable
         autoplay
-        slidesToShow={3}
+        slidesToShow={getSize()}
         autoplaySpeed={4000}
         pauseOnHover={true}
       >
