@@ -13,15 +13,15 @@
   color: white;
 }
 
-.fundo{
-    width: 410px;
-    height: 510px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    border-radius: 30px;
-    background-color: white;
-    margin-bottom: 200px;
+.fundo {
+  width: 410px;
+  height: 510px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 30px;
+  background-color: white;
+  margin-bottom: 200px;
 }
 
 .trabalhopic {
@@ -57,6 +57,7 @@
   height: 500px;
   border-radius: 30px;
 }
+
 .trabalhopic:hover::before {
   content: "";
   position: absolute;
@@ -67,6 +68,7 @@
   height: 100%;
   background: rgba(0, 0, 0, 0.4);
 }
+
 .title {
   width: 85%;
   display: flex;
@@ -89,25 +91,23 @@
   z-index: 5;
 }
 
-
-@media(max-width: 1024px){
-
+@media (max-width: 1024px) {
   .trabalhoall h1 {
     margin-bottom: 36px;
     color: white;
   }
-  
-  .fundo{
-      width: 330px;
-      height: 490px;
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      border-radius: 30px;
-      background-color: white;
-      margin-bottom: 200px;
+
+  .fundo {
+    width: 330px;
+    height: 490px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 30px;
+    background-color: white;
+    margin-bottom: 200px;
   }
-  
+
   .trabalhopic {
     background-repeat: no-repeat;
     background-size: cover;
@@ -121,11 +121,11 @@
     border-radius: 30px;
     cursor: pointer;
   }
-  
+
   .trabalho1 {
     margin-top: 150px;
   }
-  
+
   .trabalho1,
   .trabalho2,
   .trabalho3,
@@ -133,7 +133,7 @@
     width: 69%;
     margin-left: 16%;
   }
-  
+
   .trabalhopic:hover {
     transform: scale(0.96);
     transition: 0.1s;
@@ -162,7 +162,7 @@
     margin-top: 36px;
     margin-bottom: 48px;
   }
-  
+
   .texts {
     width: 85%;
     top: 150px;
@@ -174,8 +174,7 @@
   }
 }
 
-@media(max-width: 768px){
-
+@media (max-width: 768px) {
   .trabalhoall h1 {
     display: flex;
     align-items: center;
@@ -184,19 +183,19 @@
     font-size: 32px;
     color: white;
   }
-  
-  .fundo{
-      width: 430px;
-      height: 490px;
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      border-radius: 30px;
-      background-color: white;
-      margin-bottom: 200px;
-      margin-left: 10%;
+
+  .fundo {
+    width: 430px;
+    height: 490px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 30px;
+    background-color: white;
+    margin-bottom: 200px;
+    margin-left: 10%;
   }
-  
+
   .trabalhopic {
     background-repeat: no-repeat;
     background-size: cover;
@@ -210,11 +209,11 @@
     border-radius: 30px;
     cursor: pointer;
   }
-  
+
   .trabalho1 {
     margin-top: 150px;
   }
-  
+
   .trabalho1,
   .trabalho2,
   .trabalho3,
@@ -222,7 +221,7 @@
     width: 69%;
     margin-left: 16%;
   }
-  
+
   .trabalhopic:hover {
     transform: scale(0.96);
     transition: 0.1s;
@@ -251,7 +250,7 @@
     margin-top: 36px;
     margin-bottom: 48px;
   }
-  
+
   .texts {
     width: 85%;
     top: 150px;
@@ -263,8 +262,7 @@
   }
 }
 
-@media(max-width: 425px){
-
+@media (max-width: 425px) {
   .trabalhoall h1 {
     display: flex;
     align-items: center;
@@ -273,18 +271,18 @@
     font-size: 30px;
     color: white;
   }
-  
-  .fundo{
-      width: 270px;
-      height: 430px;
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      border-radius: 30px;
-      background-color: white;
-      margin-bottom: 200px;
+
+  .fundo {
+    width: 270px;
+    height: 430px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 30px;
+    background-color: white;
+    margin-bottom: 200px;
   }
-  
+
   .trabalhopic {
     background-repeat: no-repeat;
     background-size: cover;
@@ -298,11 +296,11 @@
     border-radius: 30px;
     cursor: pointer;
   }
-  
+
   .trabalho1 {
     margin-top: 150px;
   }
-  
+
   .trabalho1,
   .trabalho2,
   .trabalho3,
@@ -310,7 +308,7 @@
     width: 80vw;
     margin-left: 10%;
   }
-  
+
   .trabalhopic:hover {
     transform: scale(0.96);
     transition: 0.1s;
@@ -339,7 +337,7 @@
     margin-top: 36px;
     margin-bottom: 48px;
   }
-  
+
   .texts {
     width: 85%;
     top: 150px;
@@ -351,8 +349,7 @@
   }
 }
 
-@media(max-width: 375px){
-
+@media (max-width: 375px) {
   .trabalhoall h1 {
     display: flex;
     align-items: center;
@@ -362,18 +359,18 @@
     font-size: 28px;
     color: white;
   }
-  
-  .fundo{
-      width: 270px;
-      height: 430px;
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      border-radius: 30px;
-      background-color: white;
-      margin-bottom: 200px;
+
+  .fundo {
+    width: 270px;
+    height: 430px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 30px;
+    background-color: white;
+    margin-bottom: 200px;
   }
-  
+
   .trabalhopic {
     background-repeat: no-repeat;
     background-size: cover;
@@ -387,11 +384,11 @@
     border-radius: 30px;
     cursor: pointer;
   }
-  
+
   .trabalho1 {
     margin-top: 150px;
   }
-  
+
   .trabalho1,
   .trabalho2,
   .trabalho3,
@@ -399,7 +396,7 @@
     width: 80vw;
     margin-left: 5%;
   }
-  
+
   .trabalhopic:hover {
     transform: scale(0.96);
     transition: 0.1s;
@@ -428,7 +425,7 @@
     margin-top: 36px;
     margin-bottom: 48px;
   }
-  
+
   .texts {
     width: 85%;
     top: 150px;
@@ -440,8 +437,7 @@
   }
 }
 
-@media(max-width: 320px){
-
+@media (max-width: 320px) {
   .trabalhoall h1 {
     display: flex;
     align-items: center;
@@ -451,18 +447,18 @@
     font-size: 28px;
     color: white;
   }
-  
-  .fundo{
-      width: 230px;
-      height: 400px;
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      border-radius: 30px;
-      background-color: white;
-      margin-bottom: 200px;
+
+  .fundo {
+    width: 230px;
+    height: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 30px;
+    background-color: white;
+    margin-bottom: 200px;
   }
-  
+
   .trabalhopic {
     background-repeat: no-repeat;
     background-size: cover;
@@ -476,11 +472,11 @@
     border-radius: 30px;
     cursor: pointer;
   }
-  
+
   .trabalho1 {
     margin-top: 160px;
   }
-  
+
   .trabalho1,
   .trabalho2,
   .trabalho3,
@@ -488,7 +484,7 @@
     width: 80vw;
     margin-left: 5%;
   }
-  
+
   .trabalhopic:hover {
     transform: scale(0.96);
     transition: 0.1s;
@@ -517,7 +513,7 @@
     margin-top: 36px;
     margin-bottom: 48px;
   }
-  
+
   .texts {
     width: 85%;
     top: 150px;

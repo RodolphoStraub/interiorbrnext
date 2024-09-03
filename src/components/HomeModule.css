@@ -32,6 +32,11 @@
   width: 65%;
 }
 
+.homerightside img{
+  border-radius: 5px;
+  box-shadow: 10px 20px 10px 0 rgba(0, 0, 0, 0.2);
+}
+
 .sala {
   height: 450px;
   width: 650px;

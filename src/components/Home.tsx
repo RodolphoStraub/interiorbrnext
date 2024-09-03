@@ -1,4 +1,3 @@
-
 function Home() {
   return (
     <div id="Home" className="home">
@@ -17,7 +16,7 @@ function Home() {
       <div className="homerightside">
         <img
           className="sala"
-          src="https://casacor.abril.com.br/wp-content/uploads/sites/7/2021/04/up-arquitetura-casa-up-casacor-rio-de-janeiro-2021-foto-andre-nazareth-sofa-verde.jpg?quality=80&strip=info"
+          src="https://cdnm.westwing.com.br/glossary/uploads/br/2015/12/12052230/sala-de-estar-verde-com-pardede-pintada-quadro-aparador-de-madeira-e-palha-lumin%C3%A1ria-de-palha-poltrona-ros%C3%A9-plantas-e-ch%C3%A3o-de-madeira_unsplash_c-a2962.jpg"
           alt="Interior de uma sala verde"
         />
         <div className="backcolor"></div>
