@@ -83,7 +83,7 @@ function Opinioes() {
   return (
     <div id="Opinioes" className="wrapperopinioesall">
       <div className="opinioestext">
-        <h1 className="back">"</h1>
+        <h1 className="back">{'"'}</h1>
         <h1 className="opinion">
           Veja o que <span className="name2">nossos clientes</span>
           <br /> estão dizendo.
