@@ -10,7 +10,7 @@ const App: React.FC = () => {
   dots={false}
   swipeToSlide draggable
    autoplay
-   slidesToShow={ size.width > 1024 ? 2: 1 }
+   slidesToShow={ size.width && size.width > 1024 ? 2: 1 }
    autoplaySpeed={4000}
    pauseOnHover={true}
    >
@@ -37,7 +37,7 @@ const App: React.FC = () => {
   </Carousel>
 )};
 
-function Trabalho(props) {
+function Trabalho(props:any) {
   return (
     <div className="trabalhopic2">
       <img src={props.img}></img>

@@ -9,11 +9,11 @@ const App: React.FC = () => {
   const getSize =() =>{
 
     if (
-      size.width > 1024
+      size.width && size.width > 1024
     )
     {return 3}
     if (
-      size.width > 425
+      size.width && size.width > 425
     )
     {return 2}
     return 1
@@ -62,7 +62,7 @@ const App: React.FC = () => {
   </Carousel>
 )};
 
-function Opinions(props) {
+function Opinions(props:any) {
   return (
     <div className="opinioncards">
       <p>{props.text}</p>

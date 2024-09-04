@@ -1,4 +1,4 @@
-function Icon(props) {
+function Icon(props:any) {
   return (
     <div className="iconbox">
       <img className="icon" src={props.img}></img>
