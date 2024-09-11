@@ -76,7 +76,7 @@
   margin-bottom: 24px;
 }
 
-@media(max-width: 1440px){
+@media(max-width: 1440px) and (min-width: 1024px){
 
   .wrapperprocessoall {
     display: flex;
@@ -165,7 +165,7 @@
   }
 }
 
-@media(max-width: 1024px){
+@media(max-width: 1024px) and (min-width: 768px){
 
   .wrapperprocessoall {
     display: flex;
@@ -259,7 +259,7 @@
   }
 }
 
-@media(max-width: 768px){
+@media(max-width: 768px) and (min-width: 1024px){
 
   .wrapperprocessoall {
     display: flex;
@@ -356,7 +356,7 @@
   }
 }
 
-@media(max-width: 425px){
+@media(max-width: 425px) and (min-width: 425px){
 
   .wrapperprocessoall {
     display: flex;
@@ -458,7 +458,7 @@
   }
 }
 
-@media(max-width: 375px){
+@media(max-width: 375px) and (min-width: 320px){
 
   .wrapperprocessoall {
     display: flex;

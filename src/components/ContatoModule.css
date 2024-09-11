@@ -54,7 +54,7 @@
   transition: 0.3s;
 }
 
-@media(max-width: 1440px){
+@media(max-width: 1440px) and (min-width: 1024px){
 
   .wrappercontatoall {
     background-color: rgb(155, 158, 126);
@@ -93,7 +93,7 @@
   }
 }
 
-@media(max-width: 1024px){
+@media(max-width: 1024px) and (min-width: 768px){
 
   .wrappercontatoall {
     background-color: rgb(155, 158, 126);
@@ -132,7 +132,7 @@
   }
 }
 
-@media(max-width: 768px){
+@media(max-width: 768px) and (min-width: 425px){
 
   .wrappercontatoall {
     background-color: rgb(155, 158, 126);
@@ -172,7 +172,7 @@
   }
 }
 
-@media(max-width: 425px){
+@media(max-width: 425px) and (min-width: 375px){
 
   .wrappercontatoall {
     background-color: rgb(155, 158, 126);
@@ -213,7 +213,7 @@
   }
 }
 
-@media(max-width: 375px){
+@media(max-width: 375px) and (min-width: 320px){
 
   .wrappercontatoall {
     background-color: rgb(155, 158, 126);

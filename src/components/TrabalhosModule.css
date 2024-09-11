@@ -47,7 +47,7 @@
   z-index: 1px;
 }
 
-@media(max-width: 1440px){
+@media(max-width: 1440px) and (min-width: 1024px){
 
   .wrappertrabalhosall {
     display: flex;
@@ -99,7 +99,7 @@
   }
 }
 
-@media(max-width: 1024px){
+@media(max-width: 1024px) and (min-width: 768px){
 
   .wrappertrabalhosall {
     display: flex;
@@ -151,7 +151,7 @@
   }
 }
 
-@media(max-width: 768px){
+@media(max-width: 768px) and (min-width: 425px){
 
   .wrappertrabalhosall {
     display: flex;
@@ -204,8 +204,7 @@
   }
 }
 
-
-@media(max-width: 425px){
+@media(max-width: 425px) and (min-width: 320px){
 
   .wrappertrabalhosall {
     display: flex;
